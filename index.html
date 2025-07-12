@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat App CSS Illustration</title>
+    <meta name="author" content="Elmar Chavez" />
+    <meta name="description"
+        content="A responsive chat app CSS illustration landing page built with HTML and CSS. Created as part of a Frontend Mentor challenge during the author's fourth month learning frontend web development." />
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/icons/favicon-32x32.png" />
+    <meta property="og:site_name" content="CodingWithJiro" />
+    <meta property="og:title" content="Chat App CSS Illustration" />
+    <meta property="og:type" content="website" />
+    <meta property="og:description"
+        content="A responsive chat app CSS illustration landing page built with HTML and CSS. Created for a Frontend Mentor challenge during the author's fourth month learning frontend development." />
+
+    <meta property="og:url" content="ADD_LINK_HERE" />
+
+    <meta property="og:image" content="ADD_LINK_HEREassets/img/site-preview-meta_1200x630.png" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Chat App CSS Illustration" />
+    <meta name="twitter:description"
+        content="A responsive chat app landing page built with #HTML and #CSS. Made for a #FrontendMentor challenge! #WebDev" />
+
+    <meta name="twitter:image" content="ADD_LINK_HEREassets/img/site-preview-meta_1200x630.png" />
+
+    <meta name="color-scheme" content="light dark" />
+    <meta name="theme-color" content="#fafafa" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#1a1a1a" media="(prefers-color-scheme: dark)" />
+
+    <meta name="robots" content="index, follow" />
+
+    <link rel="canonical" href="ADD_LINK_HERE">
+
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="./js/index.js" defer></script>
+</head>
+
+<body>
+    <header class="header">
+        <a class="header__skip sr-only" href="#main" aria-label="Skip to main content">
+            Go directly to the main content of the page.
+        </a>
+
+        <div class="theme">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+                class="theme__icon theme__icon--light" aria-hidden="true">
+                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                <g id="SVGRepo_iconCarrier">
+                    <g clip-path="url(#a)" fill="currentColor">
+                        <path
+                            d="M12 0a1 1 0 0 1 1 1v4a1 1 0 1 1-2 0V1a1 1 0 0 1 1-1ZM4.929 3.515a1 1 0 0 0-1.414 1.414l2.828 2.828a1 1 0 0 0 1.414-1.414L4.93 3.515ZM1 11a1 1 0 1 0 0 2h4a1 1 0 1 0 0-2H1ZM18 12a1 1 0 0 1 1-1h4a1 1 0 1 1 0 2h-4a1 1 0 0 1-1-1ZM17.657 16.243a1 1 0 0 0-1.414 1.414l2.828 2.828a1 1 0 1 0 1.414-1.414l-2.828-2.828ZM7.757 17.657a1 1 0 1 0-1.414-1.414L3.515 19.07a1 1 0 1 0 1.414 1.414l2.828-2.828ZM20.485 4.929a1 1 0 0 0-1.414-1.414l-2.828 2.828a1 1 0 1 0 1.414 1.414l2.828-2.828ZM13 19a1 1 0 1 0-2 0v4a1 1 0 1 0 2 0v-4ZM12 7a5 5 0 1 0 0 10 5 5 0 0 0 0-10Z">
+                        </path>
+                    </g>
+                    <defs>
+                        <clipPath id="a">
+                            <path fill="#ffffff" d="M0 0h24v24H0z"></path>
+                        </clipPath>
+                    </defs>
+                </g>
+            </svg>
+
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+                class="theme__icon theme__icon--dark hidden" aria-hidden="true">
+                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                <g id="SVGRepo_iconCarrier">
+                    <path
+                        d="M9.272 2.406a1 1 0 0 0-1.23-1.355C6.59 1.535 5.432 2.487 4.37 3.55a11.399 11.399 0 0 0 0 16.182c4.518 4.519 11.51 4.261 15.976-.205 1.062-1.062 2.014-2.22 2.498-3.673A1 1 0 0 0 21.55 14.6c-3.59 1.322-7.675.734-10.434-2.025-2.765-2.766-3.328-6.83-1.844-10.168Z"
+                        fill="currentColor"></path>
+                </g>
+            </svg>
+
+            <button type="button" aria-label="Toggle Light/Dark Mode" class="theme__button"></button>
+        </div>
+
+        <h1 class="header__title sr-only">
+            Chat App CSS Illustration Landing Page
+        </h1>
+    </header>
+
+    <main class="main" id="main">
+        <section class="hero">
+            <div class="hero__bg hero__bg--left" aria-hidden="true"></div>
+
+            <div class="hero__bg hero__bg--right" aria-hidden="true"></div>
+
+            <div class="hero__container">
+                <section class="illustration" aria-label="Chat App Mockup">
+                    <h2 class="illustration__title sr-only">
+                        Chat App Preview
+                    </h2>
+
+                    <div class="illustration__notch" aria-hidden="true">
+                    </div>
+
+                    <div class="illustration__container">
+                        <header class="illustration__header">
+                            <div class="illustration__profile">
+                                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" width="24"
+                                    height="24" class="illustration__back">
+                                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                    <g id="SVGRepo_iconCarrier">
+                                        <path d="M15 7L10 12L15 17" stroke="currentColor" stroke-width="1.5"
+                                            stroke-linecap="round" stroke-linejoin="round"></path>
+                                    </g>
+                                </svg>
+
+                                <div class="illustration__profile-wrapper">
+                                    <img src="./assets/img/avatar_256x256.jpg" alt="Samuel Green's profile picture."
+                                        class="illustration__profile-image" width="256" height="256">
+
+                                    <div class="illustration__profile-info">
+                                        <span class="illustration__name">
+                                            Samuel Green
+                                        </span>
+
+                                        <span class="illustration__availability">
+                                            Available to Walk
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="currentColor" width="16"
+                                height="16" class="bi bi-three-dots-vertical illustration__menu">
+                                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                <g id="SVGRepo_iconCarrier">
+                                    <path
+                                        d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z">
+                                    </path>
+                                </g>
+                            </svg>
+                        </header>
+
+                        <section class="illustration__chatbox">
+                            <div class="illustration__chat illustration__chat--receiver">
+                                That sounds great. I’d be happy with that.
+                            </div>
+
+                            <div class="illustration__chat illustration__chat--receiver">
+                                Could you send over some pictures of your dog, please?
+                            </div>
+
+                            <div class="illustration__chat illustration__chat--image">
+                                <img src="./assets/img/dog-image-1_160x160.jpg" alt="Dog smiling at a distance."
+                                    class="illustration__dog" width="160" height="160">
+
+                                <img src="./assets/img/dog-image-2_160x160.jpg" alt="Dog resting on the fields."
+                                    class="illustration__dog" width="160" height="160">
+
+                                <img src="./assets/img/dog-image-3_160x160.jpg" alt="Dog holding a stick"
+                                    class="illustration__dog" width="160" height="160">
+                            </div>
+
+                            <div class="illustration__chat illustration__chat--sender">
+                                Here are a few pictures. She’s a happy girl!
+                            </div>
+
+                            <div class="illustration__chat illustration__chat--sender">
+                                Can you make it?
+                            </div>
+
+                            <div class="illustration__chat illustration__chat--receiver">
+                                She looks so happy! The time we discussed works. How long shall I take her out for?
+                            </div>
+
+                            <div class="illustration__service-box">
+                                <div class="illustration__checkbox">
+                                    <div class="illustration__circle"></div>
+
+                                    <span class="illustration__service">
+                                        30 minute walk
+                                    </span>
+                                </div>
+
+                                <span class="illustration__cost">
+                                    $29
+                                </span>
+                            </div>
+
+                            <div class="illustration__service-box">
+                                <div class="illustration__checkbox">
+                                    <div class="illustration__circle"></div>
+
+                                    <span class="illustration__service">
+                                        1 hour walk
+                                    </span>
+                                </div>
+
+                                <span class="illustration__cost">
+                                    $49
+                                </span>
+                            </div>
+
+                            <div class="illustration__reply-box">
+                                <p class="illustration__reply">
+                                    Type a message…
+                                </p>
+
+                                <div class="illustration__reply-button">
+                                    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" width="24"
+                                        height="24" class="illustration__reply-icon">
+                                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round">
+                                        </g>
+                                        <g id="SVGRepo_iconCarrier">
+                                            <path d="M10 7L15 12L10 17" stroke="currentColor" stroke-width="2.5"
+                                                stroke-linecap="round" stroke-linejoin="round"></path>
+                                        </g>
+                                    </svg>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </section>
+
+                <section class="hero__content">
+                    <h2 class="hero__title">
+                        Simple booking
+                    </h2>
+
+                    <p class="hero__description">
+                        Stay in touch with our dog walkers through the chat interface. This makes it easy to
+                        discuss arrangements and make bookings. Once the walk has been completed you can rate
+                        your walker and book again all through the chat.
+                    </p>
+                </section>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
