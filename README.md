@@ -1,4 +1,4 @@
-# 💻 Chat App CSS Illustration
+# Chat App CSS Illustration
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
@@ -22,7 +22,7 @@
 ![Learning Path](https://img.shields.io/badge/learning%20path-month%204-blue)
 ![Views](https://visitor-badge.laobi.icu/badge?page_id=CodingWithJiro.frontend-mentor-chat-app-css-illustration&left_text=repo%20views)
 
-## ℹ️ A Responsive Chat Booking App for a Dog Walking Service
+## A Responsive Chat Booking App for a Dog Walking Service
 
 | _Mobile Preview (375x812)_                                   | _Desktop Preview (1440x960)_                                    |
 | ------------------------------------------------------------ | --------------------------------------------------------------- |
@@ -31,11 +31,11 @@
 
 This project replicates a chat booking interface for a fictional dog walking service. It highlights the use of CSS to visually recreate UI illustrations from just pure layout and style.
 
-Created as part of the building challenges from [Frontend Mentor](https://www.frontendmentor.io/).
+Created as part of the building challenges from **[Frontend Mentor](https://www.frontendmentor.io/)**.
 
 ---
 
-## 🔍 Overview
+## Overview
 
 This project features a mobile-first responsive layout that adapts beautifully across devices. It includes a floating phone mockup UI styled entirely with HTML and CSS, mimicking a chat app interface with message bubbles, avatars, buttons, and gradients.
 
@@ -43,7 +43,7 @@ A fully accessible theme toggle switch is built using semantic HTML and minimal 
 
 ---
 
-## ✨ Features
+## Features
 
 - Mobile-first responsive layout
 - Light/dark theme toggle with smooth transitions
@@ -52,11 +52,11 @@ A fully accessible theme toggle switch is built using semantic HTML and minimal 
 - Theme-toggle support
 - Fully customizable with CSS variables
 - Media queries for reduced motion preferences
-- Pixel-perfect development using [PerfectPixel](https://chrome.google.com/webstore/detail/perfectpixel-by-welldonecod/dkaagdgjmgdmbnecmcefdhjekcoceebi)
+- Pixel-perfect development using **[PerfectPixel](https://chrome.google.com/webstore/detail/perfectpixel-by-welldonecod/dkaagdgjmgdmbnecmcefdhjekcoceebi)**
 
 ---
 
-## 🧠 What I Learned
+## What I Learned
 
 - How to recreate static illustrations using only semantic HTML and CSS
 - Improved more on using advanced CSS properties
@@ -67,7 +67,7 @@ A fully accessible theme toggle switch is built using semantic HTML and minimal 
 
 ---
 
-## 🛠️ Tech Used
+## Tech Used
 
 - HTML5
 - CSS3
@@ -78,36 +78,36 @@ A fully accessible theme toggle switch is built using semantic HTML and minimal 
 
 ---
 
-## 🎨 Design Reference & Tools
+## Design Reference & Tools
 
 - JPG design image
 - PerfectPixel
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 1. Clone the repository
 2. Open `index.html` in your browser
 
 ---
 
-## 🌐 Live Demo
+## Live Demo
 
-Or you can check out the 👉 [live website here](https://chat-app-css-illustration-fm-jiro.netlify.app/)
-
----
-
-## 📊 Performance Report
-
-A **Google Lighthouse** audit was conducted on the final version of this project. You can view the full report [here](./assets/downloads/lighthouse-performance-report.pdf).
+Or you can check out the **[live website here](https://chat-app-css-illustration-fm-jiro.netlify.app/)**
 
 ---
 
-## 🧑‍💻 Author
+## Performance Report
+
+A **Google Lighthouse** audit was conducted on the final version of this project. You can view the **[full report here](./assets/downloads/lighthouse-performance-report.pdf)**.
+
+---
+
+## Author
 
 Created by **Elmar Chavez**
 
-🗓️ Month/Year: **July 2025**
+Month/Year: **July 2025**
 
-📚 Journey: **4<sup>th</sup>** month of learning _frontend web development_.
+Journey: **4<sup>th</sup>** month of learning _frontend web development_.
